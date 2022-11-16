@@ -16,7 +16,7 @@ const selectRandom = () => {
       "User-Agent": `${user_agent}`
    }
 
-let searchText = 'javascript';
+let searchText = 'java';
 const getOrganicData = () => {
   return unirest
     .get('https://google.com/search?q='+searchText)
